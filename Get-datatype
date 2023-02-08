@@ -1,0 +1,5 @@
+x = str(5)
+y = "Shubham"
+#You can get the data type of a variable with the type() function.
+print(type(x))
+print(type(y))
