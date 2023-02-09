@@ -1,0 +1,23 @@
+print("Here we will understand the concept of variables")
+
+#Many Values to Multiple Variables
+x, y, z = "shubham", "prateek", "ritik"
+print(x)
+print(y)
+print(z)
+
+#One Value to Multiple Variables
+#you can assign the same value to multiple variables in one line:
+x = y = z = "Shubham"
+print(x)
+print(y)
+print(z)
+
+#Unpack a Collection
+#If you have a collection of values in a list, tuple etc. Python allows you to #extract the values into variables. This is called unpacking.
+
+brothers = ["shubham", "ritik", "prateek"]
+x, y, z = brothers
+print(x)
+print(y)
+print(z)
