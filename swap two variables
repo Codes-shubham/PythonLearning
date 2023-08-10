@@ -1,0 +1,7 @@
+var1 = input ("Enter the first variable value")
+var2 = input("enter the second variable value")
+temp = var1
+var1 = var2
+var2 = temp
+print("the value of the var1 after swapping is", var1)
+print("the value of the var2 after swapping is", var2)
